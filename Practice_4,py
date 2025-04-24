@@ -1,0 +1,13 @@
+def student():
+    return{
+        "Aayush":3.9,
+        "Ram":3.6,
+        "Soumyika":4.0,
+        "Kartik":3.2,
+        "Samsam":3.1
+    }
+def high_achievers(student):
+    for name,gpa in student.items():
+        if gpa > 3.5:
+            print(name,"is doing great!")
+high_achievers(student())

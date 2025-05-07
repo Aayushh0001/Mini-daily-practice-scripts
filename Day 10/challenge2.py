@@ -4,7 +4,9 @@ Dictonary={
     "Pratik":22    
 }
 
-Dictonary["Soumyika"]=22
+# Dictonary["Soumyika"]=22
+
+Dictonary.update({"Soumyika":22})
 
 Dictonary.pop("Pratik")
 

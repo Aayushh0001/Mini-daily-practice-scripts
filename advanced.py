@@ -7,7 +7,8 @@ print(student.get("name"))
 
 #Adding a new key
 student["college"]="NCIT"
-student.pop("Age")
+
+student.pop("Age") #Removes key
 
 #Looping through keys and values
 for key,value in student.items():
